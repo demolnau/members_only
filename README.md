@@ -4,7 +4,7 @@ In this Odin Project Assignment, we are tasked with creating an exclusive clubho
 
 ## Getting Started
 
-### Skeleton app
+### Create Skeleton app
 
 First, if you have not installed express yet, install it using the following code:
 
@@ -18,10 +18,11 @@ Then create a skeleton app for the members only suing the express app by running
 express members_only --view=pug
 cd members_only
 npm install
-npm install --save-dev nodemon mongoose dotenv express-async-handler luxon
+npm install --save-dev mongoose dotenv express-async-handler
+npm install --save-dev luxon
 ```
 
-### Models
+### Create Models
 
 To create the models that we will need for this assignment:
 
@@ -31,7 +32,7 @@ touch models/user.js
 touch models/message.js
 ```
 
-### Controllers
+### Create Controllers
 
 To create the controllers that we will use for this assignment:
 
